@@ -4,13 +4,13 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
 name = "healthcheck-python"
-version = "1.2.1"
+version = "1.2.2"
 description = "Health Check API for multiprocessing python apps"
-authors = [ "Ouva LLC. <hello@ouva.co>",]
-maintainers = [ "Cagdas Bas <cagdas@ouva.co>",]
+authors = [ "Cagdas Bas <cagdasbs@gmail.com>",]
+maintainers = [ "Cagdas Bas <cagdasbs@gmail.com>",]
 license = "Apache-2.0"
 readme = "README.md"
-repository = "https://github.com/ouvaco/healthcheck-python"
+repository = "https://github.com/cagdasbas/healthcheck-python"
 classifiers = [ "Development Status :: 5 - Production/Stable", "Intended Audience :: Developers", "Natural Language :: English", "License :: OSI Approved :: Apache Software License", "Operating System :: OS Independent", "Programming Language :: Python :: 3", "Programming Language :: Python :: 3.8", "Programming Language :: Python :: 3.9", "Programming Language :: Python :: 3.10", "Programming Language :: Python :: 3.11",]
 [[tool.poetry.packages]]
 include = "healthcheck_python"
