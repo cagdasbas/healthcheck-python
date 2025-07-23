@@ -29,9 +29,11 @@ RUN_PERIOD = os.environ.get('PY_HEALTH_RUN_PERIOD', 5)
 def json_output_handler(prefix: str, results: List, passed: bool, liveness: bool, timeout: int) -> Dict:
 	"""
 	Create a json output for individual health check process
+	:param prefix: Prefix for the health check, usually the name of the service
 	:param results: The output of the health check function
 	:param passed: Overall health check result
 	:param liveness: Liveness check result
+	:param timeout: Timeout for the health check
 	:return: json output
 	"""
 	data = {
